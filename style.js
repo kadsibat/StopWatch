@@ -80,20 +80,20 @@ resetBtn.addEventListener("click",()=>{
  }
   function resetPlay(){
 
-    window.location.reload(false)
+    // window.location.reload(false)
 
 
     
 
-        // minute=0;
-        // second=0;
-        // msecond=0;
-        // stopTime=true;
-        // min.innerText="00";
-        // sec.innerText="00";
-        // msec.innerText="00"
-        // startBtn.style.display="inline"
-        // pauseBtn.style.display="none"
+        minute=0;
+        second=0;
+        msecond=0;
+        stopTime=true;
+        min.innerText="00";
+        sec.innerText="00";
+        msec.innerText="00"
+        startBtn.style.display="inline"
+        pauseBtn.style.display="none"
   
     
   }
